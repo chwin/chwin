@@ -2,8 +2,6 @@
 ## git安装
 ### windows安装
     安装命令行环境msysGit
-    安装时选择Use Git from the Windows Command Prompt 否则不能定议系统
-    环境变量，vim插件依赖于git不能正常运行
     安装图形客户端TortoiseGit
     TortoiseGit依赖于msysGit，两个软件同要求同时安装，否则TortoiseGit不能正常运行
 
@@ -73,3 +71,4 @@
     git stash apply                              恢复后，stash内容并不删除
     git stash drop                               删除
     git stash pop                                恢复的同时把stash内容也删了
+The end
