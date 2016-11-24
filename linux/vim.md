@@ -90,33 +90,6 @@
     zt    将当前行滚动至屏幕顶部(top)
     zz    将当前行滚动至屏幕中间(同'z.')
     zb    将当前行滚动至屏幕底部(bottom)(同'z-')
-### 保存退出
-    :q         不保存退出
-    :q!        不保存强制退出
-    :qa        退出所有窗口
-    :qa!       强制退出所有文件
-    :w         保存文件,不退出vi
-    :wa        保存所有文件
-    :wq        保存文件并退出vi
-    :wqa       保存退出所有窗口
-    :wq!       强制保存文件并退出vi
-    :w!        强制保存，不退出vi
-    :x         加密保存
-    :X         保存并退出，同时清除加密信息
-    :w [file]  另存为file文件，不退出vi
-    :w! [file] 强制另存覆盖已有文件
-    :e [file]  打开另一个文件
-    :pwd       输出当前工作目录到状态栏
-    :cd [dir]  切换当前工作目录到[dir]
-    :w > [file]       将当前文件内容写入[file]文件(文件不存在，同':saveas')
-    :e [dir]          打开一个目录，以例表的形式展示文件(vim7.0后续版本netrw.vim插件来实现)
-    :e!               重新载入当前文件，放弃所有的修改，从上次保存文件开始再编辑
-    :e! [file]        不保存当前的文件，强制打开新文件
-    :r [file]         读入另一个文件，将[file]文件内容插入到下一行(read)
-    :r !command       读取shell命令输出结果
-    :3,9w >> [file]   将3-9行的内容追加到[file]文件末尾(文件已存在)
-    :n,mw [file]      将第n-m行的文本保存到指定的文件filename中。
-    :m,nw >> <file>   将 m 行到 n 行的内容添加到文件 <file> 的末尾
 ### 查找,替换
     /[word]            搜索[word]字符串
     ?[word]            向上搜索[word]字符串
@@ -227,24 +200,6 @@
     _        黑洞寄存器, 放到这里面的内容都被丢弃，这样可以删除或拷贝时不影响其它寄存器。
     /        最后一次搜索模式寄存器,保存最后一次搜索的正则表达式。
     :reg     查看所有寄存器中的内容
-### 缓冲区
-    :ls             查看缓冲区列表
-    :bn             编辑下一个缓冲区(buffer next)
-    :bp             编辑上一个缓冲区(buffer previous)
-    :b[n]           编辑缓冲区列表中第[n]个缓冲区
-    :b a.txt        编辑缓冲区列表中 a.txt 缓冲区
-    :bd             卸载当前缓冲区(buffer delete)
-    :bn             跳转到下一个buffer
-    :bp             跳转到上一个buffer
-    :wn             存盘当前文件并跳转到下一个(又是“超级……”,ft!)
-    :wp             存盘当前文件并跳转到上一个
-    :bd             把这个文件从buffer列表中做掉
-    :bun            卸掉buffer (关闭这个buffer的窗口但是不把它从列表中做掉)
-    :badd file.c    把文件file.c添加到buffer列表
-    :b 3            跳到第3个buffer
-    :b main         跳到一个名字中包含main的buffer,例如main.c               : (ultra，这个怎么翻译？:()
-    :sav php.html   把当前文件存为php.html并打开php.html
-    :sav! %<.bak    换一个后缀保存
 ### 删除文本
     d2fa        删除光标到第二个字母a
     d/chwin        配合使用查找 / 删除到chwin处
@@ -407,3 +362,48 @@
     zc  # 关闭光标下的折叠(close)
     zR  # 打开所有的折叠
     zM  # 关闭所有的折叠
+### 保存退出
+    :q         不保存退出
+    :q!        不保存强制退出
+    :qa        退出所有窗口
+    :qa!       强制退出所有文件
+    :w         保存文件,不退出vi
+    :wa        保存所有文件
+    :wq        保存文件并退出vi
+    :wqa       保存退出所有窗口
+    :wq!       强制保存文件并退出vi
+    :w!        强制保存，不退出vi
+    :x         加密保存
+    :X         保存并退出，同时清除加密信息
+    :w [file]  另存为file文件，不退出vi
+    :w! [file] 强制另存覆盖已有文件
+    :e [file]  打开另一个文件
+    :pwd       输出当前工作目录到状态栏
+    :cd [dir]  切换当前工作目录到[dir]
+    :w > [file]       将当前文件内容写入[file]文件(文件不存在，同':saveas')
+    :e [dir]          打开一个目录，以例表的形式展示文件(vim7.0后续版本netrw.vim插件来实现)
+    :e!               重新载入当前文件，放弃所有的修改，从上次保存文件开始再编辑
+    :e! [file]        不保存当前的文件，强制打开新文件
+    :r [file]         读入另一个文件，将[file]文件内容插入到下一行(read)
+    :r !command       读取shell命令输出结果
+    :3,9w >> [file]   将3-9行的内容追加到[file]文件末尾(文件已存在)
+    :n,mw [file]      将第n-m行的文本保存到指定的文件filename中。
+    :m,nw >> <file>   将 m 行到 n 行的内容添加到文件 <file> 的末尾
+### 缓冲区
+    :ls             查看缓冲区列表
+    :bn             编辑下一个缓冲区(buffer next)
+    :bp             编辑上一个缓冲区(buffer previous)
+    :b[n]           编辑缓冲区列表中第[n]个缓冲区
+    :b a.txt        编辑缓冲区列表中 a.txt 缓冲区
+    :bd             卸载当前缓冲区(buffer delete)
+    :bn             跳转到下一个buffer
+    :bp             跳转到上一个buffer
+    :wn             存盘当前文件并跳转到下一个(又是“超级……”,ft!)
+    :wp             存盘当前文件并跳转到上一个
+    :bd             把这个文件从buffer列表中做掉
+    :bun            卸掉buffer (关闭这个buffer的窗口但是不把它从列表中做掉)
+    :badd file.c    把文件file.c添加到buffer列表
+    :b 3            跳到第3个buffer
+    :b main         跳到一个名字中包含main的buffer,例如main.c               : (ultra，这个怎么翻译？:()
+    :sav php.html   把当前文件存为php.html并打开php.html
+    :sav! %<.bak    换一个后缀保存
