@@ -1,13 +1,17 @@
 # 配置
+    ui主题和语法主题必须保持一致，否则markdown文件不能语法高亮
 ## 插件安装
 ### 必装插件
     simplified-chinese-menu: Atom的简体中文语言包，完整汉化，兼容所有已发布的版本Atom。
-    sync-settings:同步Atom配置
     last-cursor-position 光标自由切换到上一次/下一次编辑位置
+    sync-settings:同步Atom配置
     minimap:代码缩略图
     tool-bar:快捷按钮
     tool-bar-markdown-writer:写markdown快捷按钮，必须先装tool-bar才能使用
+    symbols-tree-view:右侧显示大纲
     tree-view-search-bar:侧边栏搜索按钮
+    markdown-scroll-sync
+    markdown-folder
 ### vim插件
     vim-mode:atom中开启vim模式
     vim-mode-visual-block:在vim模式中使用块操作
@@ -22,6 +26,10 @@
     git-control git面板
     merge-conflicts 在 Atom 里面处理合并产生冲突的文件 git提交记录
     gist-it 快速分享代码到gist.github.com
+    git-time-machine 历史提交
+    git-log 以图形方式显示log
+    tree-view-git-status 侧边栏查看git状态
+    git-status 快捷键查看git状态
 ### 其它插件
     Remote-FTP ftp管理工具，命令和图形化界面都支持。
 ## 快捷键使用
@@ -32,6 +40,8 @@
     这么简单的一条命令。就直接取消了；因为在 keymap 里面的设置是权重是最高的。
 
     ctrl+shift+f 在整个项目中查找
+    alt + - 跳转到上一次修改，需要last-cursor-position插件
+    alt + _ 跳转到下一次修改，需要last-cursor-position插件
     ctrl+\ 左侧边栏开关
     alt+\  文件在侧边栏和编辑区跳转
     zc或ctrl+alt+[ 折叠当前缩进
@@ -51,7 +61,6 @@
     Command + ]    对选中内容向右缩进
     crtl+shift+i 插入图片，在安装了markdown-preview-enhanced插件才能用
     ctrl-m 相应括号之间，html tag之间等跳转
-
 the end
 快捷键	说明
 shift + cmd + o	命令版(可以看到所有快捷键)
