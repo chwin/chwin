@@ -10,15 +10,13 @@
     Minimap提供完整的源码预浏览作用，能够定位你正在编辑的文件总貌。
     Minimap cursorline是能够你光标移到时，同时在文件总貌预览中跟随移动，从而判断你当前位于文件的哪个位置。
 
-highlight-selected 高亮当前所选文字，双击后全文这个词或者变量都会高亮哦
-highlight-line 顾名思义，该插件是对光标所在行以高亮显示，从而可以准确定位光标所在的行
+    highlight-selected 高亮当前所选文字，双击后全文这个词或者变量都会高亮哦
 
     tree-view-finder
     在目录树显示文件大小和文件修改日期及文件的大小
     可以根据文件名/大小/文件修改日期进行排列
     双击文件可以调用外部编辑器打开所要编辑的文件
-Package sync
-能够在计算机之间同步已经安装好的包，如果你有几台电脑需要使用Atom，不必要一个个安装插件了。
+    Package sync 能够在计算机之间同步已经安装好的包，如果你有几台电脑需要使用Atom，不必要一个个安装插件了。
     tool-bar:快捷按钮
     tool-bar-markdown-writer:写markdown快捷按钮，必须先装tool-bar才能使用
     symbols-tree-view:右侧显示大纲
@@ -66,8 +64,7 @@ Package sync
     alt + 数字 切换对应窗口
     ctrl + p 查找文件
     ctrl + , 打开配置窗口
-    ctrl + shift + m  # markdown文件预览
-    Crtl+Shift+M    开启Markdown实时预览
+    Ctrl+Shift+M    开启Markdown实时预览
     Command+Shift+P    打开命令窗口，可以运行各种菜单功能
     Command + T    快速多文件切换
     Command + F    文件内查找和替换
