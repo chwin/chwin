@@ -5,17 +5,32 @@
     simplified-chinese-menu: Atom的简体中文语言包，完整汉化，兼容所有已发布的版本Atom。
     last-cursor-position 光标自由切换到上一次/下一次编辑位置
     sync-settings:同步Atom配置
-    minimap:代码缩略图
+    advanced-new-file 新建文件路径自动补全
+    advanced-open-file 打开文件路径自动被全
+    Minimap提供完整的源码预浏览作用，能够定位你正在编辑的文件总貌。
+    Minimap cursorline是能够你光标移到时，同时在文件总貌预览中跟随移动，从而判断你当前位于文件的哪个位置。
+
+highlight-selected 高亮当前所选文字，双击后全文这个词或者变量都会高亮哦
+highlight-line 顾名思义，该插件是对光标所在行以高亮显示，从而可以准确定位光标所在的行
+
+    tree-view-finder
+    在目录树显示文件大小和文件修改日期及文件的大小
+    可以根据文件名/大小/文件修改日期进行排列
+    双击文件可以调用外部编辑器打开所要编辑的文件
+Package sync
+能够在计算机之间同步已经安装好的包，如果你有几台电脑需要使用Atom，不必要一个个安装插件了。
     tool-bar:快捷按钮
     tool-bar-markdown-writer:写markdown快捷按钮，必须先装tool-bar才能使用
     symbols-tree-view:右侧显示大纲
     tree-view-search-bar:侧边栏搜索按钮
     markdown-scroll-sync
     markdown-folder
+    terminal-plus
 ### vim插件
     vim-mode:atom中开启vim模式
     vim-mode-visual-block:在vim模式中使用块操作
     ex-mode:在vim模式可以使用命令行
+    relative-numbers 常规模式下的相对行号
 ### markdown插件
     markdown-table-formatter：格式化表格
     language-markdown：可以设置显示缩进空格和参考线，提供 Github Flavored Markdown 等 MD 高亮支持
