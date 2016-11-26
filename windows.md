@@ -16,3 +16,5 @@
     2. FreeCommander
     3. Total Commander
 剪切板
+## 安全软件
+    自动备份软件
