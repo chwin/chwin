@@ -5,22 +5,16 @@
     simplified-chinese-menu: Atom的简体中文语言包，完整汉化，兼容所有已发布的版本Atom。
     last-cursor-position 光标自由切换到上一次/下一次编辑位置
     sync-settings:同步Atom配置
-    advanced-new-file 新建文件路径自动补全
     advanced-open-file 打开文件路径自动被全
     Minimap提供完整的源码预浏览作用，能够定位你正在编辑的文件总貌。
     Minimap cursorline是能够你光标移到时，同时在文件总貌预览中跟随移动，从而判断你当前位于文件的哪个位置。
 
     highlight-selected 高亮当前所选文字，双击后全文这个词或者变量都会高亮哦
 
-    tree-view-finder
-    在目录树显示文件大小和文件修改日期及文件的大小
-    可以根据文件名/大小/文件修改日期进行排列
-    双击文件可以调用外部编辑器打开所要编辑的文件
     Package sync 能够在计算机之间同步已经安装好的包，如果你有几台电脑需要使用Atom，不必要一个个安装插件了。
     tool-bar:快捷按钮
     tool-bar-markdown-writer:写markdown快捷按钮，必须先装tool-bar才能使用
     symbols-tree-view:右侧显示大纲
-    tree-view-search-bar:侧边栏搜索按钮
     markdown-scroll-sync
     markdown-folder
     terminal-plus
@@ -41,7 +35,6 @@
     gist-it 快速分享代码到gist.github.com
     git-time-machine 历史提交
     git-log 以图形方式显示log
-    tree-view-git-status 侧边栏查看git状态
     git-status 快捷键查看git状态
 ### 其它插件
     Remote-FTP ftp管理工具，命令和图形化界面都支持。
@@ -52,7 +45,9 @@
         'alt-h':'unset!'
     这么简单的一条命令。就直接取消了；因为在 keymap 里面的设置是权重是最高的。
 
-    ctrl+shift+f 在整个项目中查找
+    ctrl + p 查找文件
+    ctrl + shift + p 查找命令
+    ctrl+shift+f 在整个项目中查找关键字
     alt + - 跳转到上一次修改，需要last-cursor-position插件
     alt + _ 跳转到下一次修改，需要last-cursor-position插件
     ctrl+\ 左侧边栏开关
@@ -62,7 +57,6 @@
     zM或ctrl+alt+shift+[折叠所有缩进
     zR或ctrl+alt+shift+]展开所有缩进
     alt + 数字 切换对应窗口
-    ctrl + p 查找文件
     ctrl + , 打开配置窗口
     Ctrl+Shift+M    开启Markdown实时预览
     Command+Shift+P    打开命令窗口，可以运行各种菜单功能
@@ -74,36 +68,3 @@
     crtl+shift+i 插入图片，在安装了markdown-preview-enhanced插件才能用
     ctrl-m 相应括号之间，html tag之间等跳转
 the end
-快捷键	说明
-shift + cmd + o	命令版(可以看到所有快捷键)
-alt + shift + s	查看文件相关语言的代码块(snippet)
-cmd + f	搜索当前文件
-cmd+shift+f	搜索整个项目
-alt + cmd + [	代码折叠, 我不喜欢用
-alt + cmd + ]	代码展开
-cmd + /	快速注释当前行
-cmd + [	代码左缩进
-cmd + ]	代码右缩进
-cmd + b	快速跳转打开的文件
-光标移动 快捷键	说明
-alt+B或alt+left	光标按单词左移
-alt+F或alt+right	光标按单词右移
-cmd+right或ctrl+e	光标移动到行最右最后一个非空字符
-cmd+left或ctrl+a	光标移动到行最左第一个非空字符
-cmd + up	光标移动到文件头
-cmd + down	贯标移动到文件尾
-ctrl + g	行跳转, 语法为行号:列号
-cmd + r	按当前文件方法跳转
-cmd + t	全项目模糊查找关键字并跳转
-ctrl + m	按照括号匹配跳转
-书签功能: 通过cmd + F2给某一行设置书签, 书签的标志出现在行号右侧, 通过F2进行书签跳转.此功能超赞
-
-选择和编辑快捷键	说明
-ctrl+shift+p	向上选中行
-ctrl+shift+n	向下选中行
-cmd + a	选中整个文本
-cmd + l	选中整行
-cmd + d	多重选中, 用过sublime的都很熟悉
-ctrl+shit+k	删除整行
-cmd + delete	删除光标到行首
-alt + delete	按单词删除
