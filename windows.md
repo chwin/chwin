@@ -1,4 +1,5 @@
 # 配置
+    1. 设置自动开机，在运行中执行 netplwiz
     1. 关毕触摸板延时
     2. ctrl键和caps lock键互换
         Windows Registry Editor Version 5.00
