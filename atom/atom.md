@@ -2,33 +2,47 @@
     ui主题和语法主题必须保持一致，否则markdown文件不能语法高亮
 ## 插件安装
 ### 必装插件
-    simplified-chinese-menu: Atom的简体中文语言包，完整汉化，兼容所有已发布的版本Atom。
-    last-cursor-position 光标自由切换到上一次/下一次编辑位置
-    sync-settings:同步Atom配置
-    advanced-open-file 打开文件路径自动被全
-    Minimap提供完整的源码预浏览作用，能够定位你正在编辑的文件总貌。
-    Minimap cursorline是能够你光标移到时，同时在文件总貌预览中跟随移动，从而判断你当前位于文件的哪个位置。
+    # Atom的简体中文语言包，完整汉化，兼容所有已发布的版本Atom。
+    simplified-chinese-menu
+    # 光标自由切换到上一次/下一次编辑位置
+    last-cursor-position
+    # 同步Atom配置
+    sync-settings
+    # 打开文件路径自动补全
+    advanced-open-file
 
+    # 提供完整的源码预浏览作用，能够定位你正在编辑的文件总貌。
+    Minimap
+    # 是能够你光标移到时，同时在文件总貌预览中跟随移动，从而判断你当前位于文件的哪个位置。
+    Minimap cursorline
+    #
+    file-icons
+atom-beautify
     highlight-selected 高亮当前所选文字，双击后全文这个词或者变量都会高亮哦
 
     Package sync 能够在计算机之间同步已经安装好的包，如果你有几台电脑需要使用Atom，不必要一个个安装插件了。
     tool-bar:快捷按钮
     tool-bar-markdown-writer:写markdown快捷按钮，必须先装tool-bar才能使用
     symbols-tree-view:右侧显示大纲
-    markdown-scroll-sync
-    markdown-folder
     terminal-plus
 ### vim插件
-    vim-mode:atom中开启vim模式
-    vim-mode-visual-block:在vim模式中使用块操作
-    ex-mode:在vim模式可以使用命令行
-    relative-numbers 常规模式下的相对行号
+    # atom中开启vim模式
+    vim-mode
+    # 在vim模式中使用块操作
+    vim-mode-visual-block
+    # 在vim模式可以使用命令行
+    ex-mode
+    # 常规模式下的相对行号
+    relative-numbers
 ### markdown插件
-    markdown-table-formatter：格式化表格
-    language-markdown：可以设置显示缩进空格和参考线，提供 Github Flavored Markdown 等 MD 高亮支持
-    markdown-folder:折叠标题
-    markdown-writer：方便管理图片、链接等
+    # 可以设置显示缩进空格和参考线，提供 Github Flavored Markdown 等 MD 高亮支持
+    language-markdown
+    # 方便管理图片、链接等
+    markdown-writer
+    #
+    markdown-scroll-sync
 ### Git/github
+    merge-conflicts
     git-plus 在 Atom 里面执行 Git 命令，不用来回切换终端和编辑器
     git-control git面板
     merge-conflicts 在 Atom 里面处理合并产生冲突的文件 git提交记录
@@ -68,3 +82,57 @@
     crtl+shift+i 插入图片，在安装了markdown-preview-enhanced插件才能用
     ctrl-m 相应括号之间，html tag之间等跳转
 the end
+
+这是一个适用于 Web 开发者的 Atom 插件列表。 有了这些插件帮助， Atom 可以为我们提供类似 IDE 的功能。刚接触 Atom ?
+
+语法支持
+language-babel
+ES2016、ESNext、JSX 语法扩展
+language-postcss
+PostCSS 语法高亮
+自动补全
+autocomplete-modules
+模块名自动补全
+autocomplete-paths
+路径自动补全
+atom-ternjs
+ES5, ES6, ES7, Node.js, jQuery, Angular 等等 js 代码自动补全
+emmet
+快速手写 HTML, CSS, Sass / SCSS / LESS
+语法检查
+linter
+基本语法检查框架
+linter-jshint
+基于 jshint 的 JavaScript 语法检查插件
+linter-eslint
+基于 ESLint 的 JavaScript 语法检查插件
+版本控制
+git-plus
+丢掉终端，在 Atom 里面执行 Git 命令
+merge-conflicts
+通过 Atom 处理冲突的文件
+扩展功能
+minimap
+源码预览图
+file-icons
+显示文件类型对应的图标
+atom-beautify
+代码格式化
+pigments
+代码颜色可视化
+color-picker
+取色器
+highlight-selected
+高亮选中
+minimap-highlight-selected
+源码预览图中高亮选中
+docblockr
+注释插件
+markdown-preview-plus
+markdown 实时预览
+hyperclick
+跳转到变量定义文件，需要配合 js-hyperclick 使用
+js-hyperclick
+跳转到变量定义文件，需要配合 hyperclick 使用
+travis-ci-status
+底部状态栏扩展
