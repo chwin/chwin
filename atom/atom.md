@@ -10,21 +10,22 @@
     sync-settings
     # 打开文件路径自动补全
     advanced-open-file
-
+    # 能够在计算机之间同步已经安装好的包
+    Package sync
     # 提供完整的源码预浏览作用，能够定位你正在编辑的文件总貌。
     Minimap
     # 光标移到时，同时在文件总貌预览中跟随移动，从而判断你当前位于文件的哪个位置。
     Minimap cursorline
-    #
     # 显示文件类型图标
     file-icons
-atom-beautify
-    highlight-selected 高亮当前所选文字，双击后全文这个词或者变量都会高亮哦
-
-    Package sync 能够在计算机之间同步已经安装好的包，如果你有几台电脑需要使用Atom，不必要一个个安装插件了。
-    tool-bar:快捷按钮
-    tool-bar-markdown-writer:写markdown快捷按钮，必须先装tool-bar才能使用
-    symbols-tree-view:右侧显示大纲
+    # 高亮当前所选文字，双击后全文这个词或者变量都会高亮哦
+    highlight-selected
+    # 快捷按钮
+    tool-bar
+    # 写markdown快捷按钮，必须先装tool-bar才能使用
+    tool-bar-markdown-writer
+    # 右侧显示大纲
+    symbols-tree-view
     terminal-plus
 ### vim插件
     # atom中开启vim模式
@@ -40,7 +41,7 @@ atom-beautify
     language-markdown
     # 方便管理图片、链接等
     markdown-writer
-    #
+    # 同步滚动预览
     markdown-scroll-sync
 ### Git/github
     merge-conflicts
@@ -113,8 +114,6 @@ git-plus
 merge-conflicts
 通过 Atom 处理冲突的文件
 扩展功能
-minimap
-源码预览图
 file-icons
 显示文件类型对应的图标
 atom-beautify
@@ -125,6 +124,8 @@ color-picker
 取色器
 highlight-selected
 高亮选中
+minimap
+源码预览图
 minimap-highlight-selected
 源码预览图中高亮选中
 docblockr
