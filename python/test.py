@@ -1,0 +1,5 @@
+print('hello word')
+print('2+3=',2+3)
+print(2+3)
+name = input()
+print('hello',name)

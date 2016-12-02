@@ -5,19 +5,20 @@
     TortoiseGit依赖于msysGit，两个软件同要求同时安装，否则TortoiseGit不能正常运行
 ## 配置
     连接github
-    $ ssh-keygen -t rsa -C "chwin@msn.com" 创建密钥，将密钥复制到github网站
-    $ ssh -T git@github.com 测试连接是否成功
+    # 创建密钥，将密钥复制到github网站
+    ssh-keygen -t rsa -C "chwin@msn.com"
+    # 测试连接是否成功
+    ssh -T git@github.com
 
     设置username和email
     因为github每次commit都会记录他们。因为Git是分布式版本控制系统，所以，每个机器都必须自报家门：你的名字和Email地址。如果有人故意冒充别人也是有办法可查的。
-    $ git config命令的--global参数表示你这台机器上所有的Git仓库都会使用这个配置，也可以对某个仓库指定不同的用户名和Email地址。
-    $ git config --global user.name "chwin" 设置全局库名称
-    $ git config --global user.email "chwin@msn.com" 设置全局email
+    git config命令的--global参数表示你这台机器上所有的Git仓库都会使用这个配置，也可以对某个仓库指定不同的用户名和Email地址。
+    git config --global user.name "chwin" 设置全局库名称
+    git config --global user.email "chwin@msn.com" 设置全局email
 
     配置github远程地址
-    $ git remote add origin git@github.com:chwin/chwin.git
+    git remote add origin git@github.com:chwin/chwin.git
 ## 远程配置
-    git init     初始化当前目录为Git仓库，创建.git隐含目录保存进度
     git remote add origin                        配置远程地址
     git remote rm origin                         删除远程地址
     git config --global user.name                配置用户名
@@ -30,6 +31,7 @@
     git config -l                                查看全局配置
     git remote -v                                显示了可以抓取和推送的origin的地址。如果没有推送权限，就看不到push的地址。
 ### 工作区操作
+    git init     初始化当前目录为Git仓库，创建.git隐含目录保存进度
     git add aaa.txt                              添加一个新文件到暂存区来跟踪文件变化
     git add '#.txt'                              添加所有.txt文件到暂存区，加单引号包括子目录内的文件。否则只加当前目录下的文件
     git add .                                    添加当前目录所有文件

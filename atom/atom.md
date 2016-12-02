@@ -20,13 +20,8 @@
     file-icons
     # 高亮当前所选文字，双击后全文这个词或者变量都会高亮哦
     highlight-selected
-    # 快捷按钮
-    tool-bar
-    # 写markdown快捷按钮，必须先装tool-bar才能使用
-    tool-bar-markdown-writer
     # 右侧显示大纲
     symbols-tree-view
-    terminal-plus
 ### vim插件
     # atom中开启vim模式
     vim-mode
@@ -44,7 +39,6 @@
     # 同步滚动预览
     markdown-scroll-sync
 ### Git/github
-    merge-conflicts
     git-plus 在 Atom 里面执行 Git 命令，不用来回切换终端和编辑器
     git-control git面板
     merge-conflicts 在 Atom 里面处理合并产生冲突的文件 git提交记录
@@ -52,6 +46,20 @@
     git-time-machine 历史提交
     git-log 以图形方式显示log
     git-status 快捷键查看git状态
+    tree-view-git-status 文件夹git状态 
+### python
+    python-autopep8 自动符合pep8代码规范
+    autocomplete-python 自动补全
+    python-tools
+    Python跳转插件
+    python-debugger
+    python debug
+
+    # python代码自动补全
+    autocomplete-python
+    # python编码规范检查
+    linter-pep8
+
 ### 其它插件
     Remote-FTP ftp管理工具，命令和图形化界面都支持。
 ## 快捷键使用
