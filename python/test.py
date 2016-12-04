@@ -1,5 +1,4 @@
-print('hello word')
-print('2+3=',2+3)
-print(2+3)
-name = input()
-print('hello',name)
+print("hello word")
+print("lsdjf")
+print("ls")
+print("ls   ") print("lsdjf        dkfj    ") print(33) and all and

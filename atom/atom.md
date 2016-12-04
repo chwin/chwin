@@ -10,6 +10,10 @@
     sync-settings
     # 打开文件路径自动补全
     advanced-open-file
+    # 按tab键跳出括号
+    bracket-close-jump
+    # 显示时钟
+    Atom Clock
     # 能够在计算机之间同步已经安装好的包
     Package sync
     # 提供完整的源码预浏览作用，能够定位你正在编辑的文件总貌。
@@ -22,6 +26,13 @@
     highlight-selected
     # 右侧显示大纲
     symbols-tree-view
+    # 代码格式化
+    atom-beautify
+    # 在atom下运行脚本，支持多种开发语言。
+    script
+    # 填写路径的时候有提示
+    autocomplete-paths
+    autocomplete-modules
 ### vim插件
     # atom中开启vim模式
     vim-mode
@@ -42,24 +53,20 @@
     git-plus 在 Atom 里面执行 Git 命令，不用来回切换终端和编辑器
     git-control git面板
     merge-conflicts 在 Atom 里面处理合并产生冲突的文件 git提交记录
-    gist-it 快速分享代码到gist.github.com
     git-time-machine 历史提交
     git-log 以图形方式显示log
     git-status 快捷键查看git状态
-    tree-view-git-status 文件夹git状态 
+    tree-view-git-status 文件夹git状态
+    gist-it 快速分享代码到gist.github.com
 ### python
-    python-autopep8 自动符合pep8代码规范
-    autocomplete-python 自动补全
-    python-tools
-    Python跳转插件
-    python-debugger
-    python debug
-
     # python代码自动补全
     autocomplete-python
+    # Python跳转插件
+    python-tools
+    # python debug
+    python-debugger
     # python编码规范检查
     linter-pep8
-
 ### 其它插件
     Remote-FTP ftp管理工具，命令和图形化界面都支持。
 ## 快捷键使用
@@ -124,8 +131,6 @@ merge-conflicts
 扩展功能
 file-icons
 显示文件类型对应的图标
-atom-beautify
-代码格式化
 pigments
 代码颜色可视化
 color-picker
