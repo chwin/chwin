@@ -15,6 +15,7 @@
     git config命令的--global参数表示你这台机器上所有的Git仓库都会使用这个配置，也可以对某个仓库指定不同的用户名和Email地址。
     git config --global user.name "chwin" 设置全局库名称
     git config --global user.email "chwin@msn.com" 设置全局email
+    git push -u origin master                    推送master到origin  -u 只输入一次就自动记录，下次直接推送即可
 
     配置github远程地址
     git remote add origin git@github.com:chwin/chwin.git
