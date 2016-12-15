@@ -19,8 +19,10 @@
 剪切板
 ## 安全软件
     自动备份软件
-good ok are you?
-seer 文件预览
-## 开发软件
-    SourceTree # git GUI
-    
+# 开发软件
+qq
+chrome
+wiztree
+clipx
+duplicate cleaner
+picasa

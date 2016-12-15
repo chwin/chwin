@@ -28,9 +28,9 @@ if KeyToHoldDown ;需要按下一个键。
     Send, {%KeyToHoldDown% down} ;按下它。
 return
 
-
+;; 单键映射
 Joy1::F1
-Joy2::F2
+Joy2::F4
 Joy4::F3
 Joy5::F4
 Joy11::F5
