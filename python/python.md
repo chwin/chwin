@@ -2,8 +2,7 @@
 ## 基础
 ### 代码抬头
     #!/usr/bin/env python3
-    # -#- coding: utf-8 -#-
-
+    # -*- coding: utf-8 -*-
 ### print()
     print('a','b','c')
     print(100 + 200)

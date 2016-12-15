@@ -29,31 +29,53 @@ if KeyToHoldDown ;需要按下一个键。
 return
 
 
-
-Joy1::F7
-Joy2::F8
-Joy4::F9
-Joy5::F10
-Joy7::F3
-Joy8::F4
-Joy9::F1
-Joy10::F2
+Joy1::F1
+Joy2::F2
+Joy4::F3
+Joy5::F4
 Joy11::F5
 Joy12::F6
-F6::Home
-F9::
+Joy7::F7
+Joy8::F8
+Joy9::F9
+Joy10::F10
+
+Joy10 & Joy1::
+send ^1
+return
+Joy10 & Joy2::
+send ^2
+return
+Joy10 & Joy4::
+send ^3
+return
+Joy10 & Joy5::
+send ^4
+return
+Joy10 & Joy11::
+send ^5
+return
+Joy10 & Joy12::
+send ^6
+return
+
+F8::
+Send {Home}
+return
+
+F3::
 Click 637 963
 Sleep, 100
-Click 667 725
+Click 667 720
 return
 
-F10::
+F4::
 Click 631 963
 Sleep, 100
-Click 655 644
+Click 655 640
 return
 
-F6::
+`::
 Click 285 960
 Sleep, 500
 Click 61 622
