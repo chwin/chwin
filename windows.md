@@ -6,6 +6,8 @@
         [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout]
         "Scancode Map"=hex:00,00,00,00,00,00,00,00,03,00,00,00,1d,00,3a,00,3a,00,1d,e0,\
           00,00,00,00
+    3. 取消开机密码
+        运行netplwiz
 # 软件安装
 ## 翻墙软件
     1. 篮灯
