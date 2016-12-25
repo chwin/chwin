@@ -1,3 +1,7 @@
+[TOC]
+Tags： 数学 英语 Markdown
+注脚[^footnote]的
+
 ## 基本操作
 ### 使用技巧
     x=dl

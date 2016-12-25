@@ -1,31 +1,13 @@
-;; 交换ctrl键
-    #MaxHotKeysPerInterval 70000
-    Capslock::Lctrl
-    Lctrl::Capslock
-;; 移动光标
-    ;   !i::SendInput {Up}
-    ;   !k::SendInput {Down}
-    ;   !j::SendInput {Left}
-    ;   !l::SendInput {Right}
-    ;   !u::SendInput {Home}
-    ;   !o::SendInput {End}
-    ;   !h::SendInput {BS}
-    ;   !d::SendInput {Del}
-;; 快捷符号
-    /::SendInput {/}
-    +/::SendInput {?}
-    / & j::SendInput {)}
-    / & f::SendInput {(}
-    / & g::SendInput {{}
-    / & h::SendInput {}}
-    / & v::SendInput {=}
-    / & b::SendInput {-}
-    / & c::SendInput {+}
-    / & x::SendInput {*}
-    / & z::SendInput {\}
-    / & d::SendInput {!}
-    / & s::SendInput {?}
-    / & r::SendInput {[}
-    / & u::SendInput {]}
-    / & e::SendInput {#}
-    / & w::SendInput {@}
+run .\key_swich.ahk
+run .\joy.ahk
+run .\yaogan.ahk
+run .\up_down_left_right.ahk
+sleep 100
+send {enter}
+sleep 100
+send {enter}
+sleep 100
+send {enter}
+sleep 100
+send {enter}
+^!r::Reload  ;指定 Ctrl-Alt-R 作为重启脚本的热键
