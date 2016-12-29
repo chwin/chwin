@@ -12,20 +12,20 @@
     ;   !h::SendInput {BS}
     ;   !d::SendInput {Del}
 ;; 快捷符号
-    /::SendInput {/}
-    +/::SendInput {?}
-    / & j::SendInput {)}
-    / & f::SendInput {(}
-    / & g::SendInput {{}
-    / & h::SendInput {}}
-    / & v::SendInput {=}
-    / & b::SendInput {-}
-    / & c::SendInput {+}
-    / & x::SendInput {*}
-    / & z::SendInput {\}
-    / & d::SendInput {!}
-    / & s::SendInput {?}
-    / & r::SendInput {[}
-    / & u::SendInput {]}
-    / & e::SendInput {#}
-    / & w::SendInput {@}
+    ;::SendInput {;}
+    +;::SendInput {?}
+    ; & j::SendInput {)}
+    ; & f::SendInput {(}
+    ; & g::SendInput {{}
+    ; & h::SendInput {}}
+    ; & v::SendInput {=}
+    ; & b::SendInput {-}
+    ; & c::SendInput {+}
+    ; & x::SendInput {*}
+    ; & z::SendInput {\}
+    ; & d::SendInput {!}
+    ; & s::SendInput {?}
+    ; & r::SendInput {[}
+    ; & u::SendInput {]}
+    ; & e::SendInput {#}
+    ; & w::SendInput {@}

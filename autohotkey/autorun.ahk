@@ -1,5 +1,5 @@
-run .\key_swich.ahk
 run .\joy.ahk
+run .\key_swich.ahk
 run .\yaogan.ahk
 run .\up_down_left_right.ahk
 sleep 100
