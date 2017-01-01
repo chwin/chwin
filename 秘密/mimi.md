@@ -1,14 +1,9 @@
 # vscode
-GITHUB TOKEN:
-456be0c3773034101107686f1af7d6802774e0ce 
-GITHUB GIST:
-297c360d9a1a1e049b77f6761acd6dea 
 
+-------------------- 
+GITHUB TOKEN: ad003e7e55ebc63b3aa3350d2bad8d28358f936f 
+GITHUB GIST: 5556d203d67a21a67caf98d2071b0867 
+GITHUB GIST TYPE: Secret 
+ 
+-------------------- 
 # atom
-WGestures 
-StrokesPlus
-
-access token
-614a9d14ad3808b0f5d855d789b25db4c132594c
-gistID
-838f288f26435ed40404c7bff7fa47b2
