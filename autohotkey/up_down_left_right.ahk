@@ -1,3 +1,9 @@
+#UseHook 
+#InstallKeybdHook
+#HotkeyInterval 2000
+#MaxHotkeysPerInterval 200
+#SingleInstance force
+
 #Persistent ;保持脚本运行，直到用户明确地退出。
 SetTimer, WatchPOV, 5
 return
