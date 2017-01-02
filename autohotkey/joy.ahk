@@ -1,7 +1,3 @@
-#UseHook 
-#InstallKeybdHook
-#HotkeyInterval 2000
-#MaxHotkeysPerInterval 200
 #SingleInstance force
 ;; 摇杆
     #Persistent ;保持脚本运行，直到用户明确地退出。

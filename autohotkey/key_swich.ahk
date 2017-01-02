@@ -1,15 +1,17 @@
-#UseHook 
-#InstallKeybdHook
+msgbox chwin
 #HotkeyInterval 2000
-#MaxHotkeysPerInterval 200
+#MaxHotkeysPerInterval 2000
 #SingleInstance force
-    ^!r::Reload  ;指定 Ctrl-Alt-R 作为重启脚本的热键。
 
+
+
+SetCapsLockState, AlwaysOff ; 一直关闭caps lock键
+SetStoreCapslockMode, off
 ;; 交换ctrl键
     Capslock::Lctrl
-    Rctrl::Capslock
-
-    ^`;::
+    Lctrl::Capslock
+;; 改变ESC键位置
+    ^[::
     SendInput {Esc}
     return
 
@@ -24,20 +26,21 @@
     ;   !d::SendInput {Del}
 
 ;; 快捷符号
-`;::SendInput {`;}
-+`;::SendInput {:}
-`; & j::SendInput {)}
-`; & f::SendInput {(}
-`; & g::SendInput {{}
-`; & h::SendInput {}}
-`; & v::SendInput {=}
-`; & b::SendInput {-}
-`; & c::SendInput {+}
-`; & x::SendInput {*}
-`; & z::SendInput {\}
-`; & d::SendInput {!}
-`; & s::SendInput {?}
-`; & r::SendInput {[}
-`; & u::SendInput {]}
-`; & e::SendInput {#}
-`; & w::SendInput {@}
+    `;::SendInput {`;}
+    +`;::SendInput {:}
+    `; & j::SendInput {)}
+    `; & f::SendInput {(}
+    `; & g::SendInput {{}
+    `; & h::SendInput {}}
+    `; & v::SendInput {=}
+    `; & b::SendInput {-}
+    `; & c::SendInput {+}
+    `; & x::SendInput {*}
+    `; & z::SendInput {\}
+    `; & d::SendInput {!}
+    `; & s::SendInput {?}
+    `; & r::SendInput {[}
+    `; & u::SendInput {]}
+    `; & e::SendInput {#}
+    `; & w::SendInput {@}
+^!r::Reload  ;指定 Ctrl-Alt-R 作为重启脚本的热键。

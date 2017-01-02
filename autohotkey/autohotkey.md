@@ -53,5 +53,5 @@ Run, MyFile.txt
 11、命令“dir c:/Windows/system32”如何实现？
 Run, %ComSpec% /k dir c:/Windows/system32
 
-
+############ 把所有脚本写成子程序
 ## sd

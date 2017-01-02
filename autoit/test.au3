@@ -1,0 +1,1 @@
+HotKeySet ( "s" [,send("f")] )
