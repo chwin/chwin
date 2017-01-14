@@ -1,3 +1,4 @@
+#SingleInstance force
 #Persistent ;保持脚本运行，直到用户明确地退出。
 SetTimer, WatchAxis, 5
 return
@@ -8,13 +9,13 @@ GetKeyState, JoyR, JoyR ;得到 y 轴的坐标。
 KeyToHoldDownPrev = %KeyToHoldDown% ; Prev 现在保存了先前按下的按键（如果有的话）。
 
 if JoyZ > 70
-  KeyToHoldDown = Right
+  KeyToHoldDown = 8
 else if JoyZ < 30
-  KeyToHoldDown = Left
+  KeyToHoldDown = 7
 else if JoyR > 70
-  KeyToHoldDown = Down
+  KeyToHoldDown = 6
 else if JoyR < 30
-  KeyToHoldDown = Up
+  KeyToHoldDown = 5
 else
   KeyToHoldDown =
 

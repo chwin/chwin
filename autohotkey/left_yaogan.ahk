@@ -9,13 +9,13 @@ GetKeyState, JoyY, JoyY ;得到 y 轴的坐标。
 KeyToHoldDownPrev = %KeyToHoldDown% ; Prev 现在保存了先前按下的按键（如果有的话）。
 
 if JoyX > 70
-  KeyToHoldDown = Right
+  KeyToHoldDown = 4
 else if JoyX < 30
-  KeyToHoldDown = Left
+  KeyToHoldDown = 3
 else if JoyY > 70
-  KeyToHoldDown = Down
+  KeyToHoldDown = 2
 else if JoyY < 30
-  KeyToHoldDown = Up
+  KeyToHoldDown = 1
 else
   KeyToHoldDown =
 

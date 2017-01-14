@@ -3,3 +3,4 @@
 
 '.platform-linux atom-text-editor.vim-mode:not(.insert-mode)':
   'alt-2': 'clipboard-plus:toggle'
+      c:\

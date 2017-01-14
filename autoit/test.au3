@@ -1,1 +1,1 @@
-HotKeySet ( "s" [,send("f")] )
+# -*- coding:utf-8 -*-

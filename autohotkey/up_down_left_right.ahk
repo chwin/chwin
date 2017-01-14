@@ -10,15 +10,15 @@ KeyToHoldDownPrev = %KeyToHoldDown% ; Prev 现在存储了先前按下的键（�
 if POV < 0 ;没有角度
   KeyToHoldDown =
 else if POV > 31500 ; 315 至 360 度：向上
-  KeyToHoldDown = 5
+  KeyToHoldDown = up
 else if POV between 0 and 4500 ; 0 至 45 度：向上
-  KeyToHoldDown = 5
+  KeyToHoldDown = up
 else if POV between 4501 and 13500 ; 45 至 135 度：向右
-  KeyToHoldDown = 8
+  KeyToHoldDown = right
 else if POV between 13501 and 22500 ; 135 至 225 度：向下
-  KeyToHoldDown = 6
+  KeyToHoldDown = down
 else ; 225 至 315 度：向左
-  KeyToHoldDown = 7
+  KeyToHoldDown = left
 if KeyToHoldDown = %KeyToHoldDownPrev% ;已经按下了正确的键（或者不需要任何键）。
 return ;什么也不做。
 ;否则，释放先前的键并且按下一个新键:

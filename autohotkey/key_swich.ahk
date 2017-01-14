@@ -3,8 +3,6 @@ msgbox chwin
 #MaxHotkeysPerInterval 2000
 #SingleInstance force
 
-
-
 SetCapsLockState, AlwaysOff ; 一直关闭caps lock键
 SetStoreCapslockMode, off
 ;; 交换ctrl键
@@ -12,18 +10,8 @@ SetStoreCapslockMode, off
     Lctrl::Capslock
 ;; 改变ESC键位置
     ^[::
-    SendInput {Esc}
+        SendInput {Esc}
     return
-
-;; 移动光标
-    ;   !i::SendInput {Up}
-    ;   !k::SendInput {Down}
-    ;   !j::SendInput {Left}
-    ;   !l::SendInput {Right}
-    ;   !u::SendInput {Home}
-    ;   !o::SendInput {End}
-    ;   !h::SendInput {BS}
-    ;   !d::SendInput {Del}
 
 ;; 快捷符号
     `;::SendInput {`;}
@@ -44,3 +32,16 @@ SetStoreCapslockMode, off
     `; & e::SendInput {#}
     `; & w::SendInput {@}
 ^!r::Reload  ;指定 Ctrl-Alt-R 作为重启脚本的热键。
+
+
+
+;; 移动光标
+    ;   !i::SendInput {Up}
+    ;   !k::SendInput {Down}
+    ;   !j::SendInput {Left}
+    ;   !l::SendInput {Right}
+    ;   !u::SendInput {Home}
+    ;   !o::SendInput {End}
+    ;   !h::SendInput {BS}
+    ;   !d::SendInput {Del}
+
