@@ -1,20 +1,18 @@
-
-
 *** find
     通过以下的命令可以找到系统上所有的设置了suid的文件：
-[root@sgrid5 /]# find / -perm -04000 -type f -ls
+    [root@sgrid5 /]# find / -perm -04000 -type f -ls
 
--empty # 查找空白文件或目录
--group # 按组查找
--user  # 按用户查找
--name  # 按名称查找
--iname  # 按名称查找,不区分大小写
--mtime # 按修改时间查找
--size # 按容量大小查找
--type #按档案类型查找 f文件 d目录 b块设备 c字符型设备 l链接文件
--exec # 对查找的档案执行命令
--a # 并且
--o # 或者
+    -empty # 查找空白文件或目录
+    -group # 按组查找
+    -user  # 按用户查找
+    -name  # 按名称查找
+    -iname  # 按名称查找,不区分大小写
+    -mtime # 按修改时间查找
+    -size # 按容量大小查找
+    -type #按档案类型查找 f文件 d目录 b块设备 c字符型设备 l链接文件
+    -exec # 对查找的档案执行命令
+    -a # 并且
+    -o # 或者
 
 find . -name "file???"
 find . -iname "file"  # 不区分大小写

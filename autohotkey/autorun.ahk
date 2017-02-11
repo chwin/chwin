@@ -5,8 +5,8 @@ SetCapsLockState, AlwaysOff ; 一直关闭caps lock键
 SetStoreCapslockMode, off
 
 ;; 交换ctrl键
-    Capslock::Lctrl
-    Lctrl::Capslock
+    ;Capslock::Lctrl
+    ;Lctrl::Capslock
 
 +!r:: ; shift + alt + a 启动以下脚本
     EnvSet, hotkeyPATH, d:\sync\project\chwin\autohotkey\

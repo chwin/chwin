@@ -1,7 +1,5 @@
-
-*** cp
-    cp aa bb cc /root
- cp -v  显示详细信息
+cp aa bb cc /root
+cp -v  显示详细信息
 cp /dev/cdrom rhel4-1.iso
 cp -R 递归复制整个目录和子目录
 cp -r 会把所有source当作普通文件（regular文件）；而cp -r 对特殊文件（管道文件，块设备文件，字符设备文件）会进行创建操作，而不是拷贝。

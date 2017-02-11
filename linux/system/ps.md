@@ -3,6 +3,7 @@
      标准语法格式：
      ps -e # 查看所有的进程信息
      ps -ef # 全格式显示进程信息
+     ps -ef | grep rsync # 查看rsync进程
      BSD语法格式：
      ps -ax
      ps -aux

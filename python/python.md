@@ -7,14 +7,12 @@
     print('a','b','c')
     print(100 + 200)
     print('100 + 200 =', 100+200)
-
 ### input()
     name = input()
     print('hello,',name)
 
     name = input('please enter your name: ')
     print('hello,', name)
-
 ### 代码片段
     # print absolute value of an integer:
     a = 100
@@ -41,3 +39,8 @@
      >>> print('\\\n\\')
      \
      \
+    1. 三重引号
+        '''
+        hi
+            hello world
+        '''
