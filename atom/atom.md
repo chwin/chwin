@@ -9,12 +9,15 @@ ui主题和语法主题必须保持一致，否则markdown文件不能语法高�
 ## 必装插件
 
 ```
-# Atom的简体中文语言包，完整汉化，兼容所有已发布的版本Atom。
-simplified-chinese-menu
-# 光标自由切换到上一次/下一次编辑位置
-last-cursor-position
 # 同步Atom配置
 sync-settings
+# Atom的简体中文语言包，完整汉化，兼容所有已发布的版本Atom。
+simplified-chinese-menu
+
+
+
+# 光标自由切换到上一次/下一次编辑位置
+last-cursor-position
 # 打开文件路径自动补全
 advanced-open-file
 # 按tab键跳出括号
