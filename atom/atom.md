@@ -1,75 +1,109 @@
-# 配置
+[toc]
 
-```
+
+
+
+
+atom中选取多行可以通过快捷键ctrl+shift，上下左右可以移动选择的光标
+
+- 配置
+
 ui主题和语法主题必须保持一致，否则markdown文件不能语法高亮
-```
 
 # 插件安装
-
 ## 必装插件
 
-```
-# 同步Atom配置
-sync-settings
-# Atom的简体中文语言包，完整汉化，兼容所有已发布的版本Atom。
-simplified-chinese-menu
+- Atom的简体中文语言包，完整汉化，兼容所有已发布的版本Atom。
+- simplified-chinese-menu
 
+- 同步Atom配置
+  sync-settings
 
+- emacs快捷键绑定
+  atomic-emacs
 
-# 光标自由切换到上一次/下一次编辑位置
+- 对齐插件
+  aligner
+
+- 显示时钟
+  Atom Clock
+
+- 显示文件类型图标
+file-type-icons
+
+- 光标自由切换到上一次/下一次编辑位置（option--  option-_)
 last-cursor-position
-# 打开文件路径自动补全
-advanced-open-file
-# 按tab键跳出括号
+
+- 打开文件路径自动补全
+advanced-open-filef
+
+- 按tab键跳出括号
 bracket-close-jump
-# 显示时钟
-Atom Clock
-# 能够在计算机之间同步已经安装好的包
+
+- 能够在计算机之间同步已经安装好的包
 Package sync
-# 提供完整的源码预浏览作用，能够定位你正在编辑的文件总貌。
+
+- 提供完整的源码预浏览作用，能够定位你正在编辑的文件总貌。
 Minimap
-# 光标移到时，同时在文件总貌预览中跟随移动，从而判断你当前位于文件的哪个位置。
+
+- 光标移到时，同时在文件总貌预览中跟随移动，从而判断你当前位于文件的哪个位置。
 Minimap cursorline
-# 显示文件类型图标
-file-icons
-# 高亮当前所选文字，双击后全文这个词或者变量都会高亮哦
+
+- 高亮当前所选文字，双击后全文这个词或者变量都会高亮哦
 highlight-selected
-# 右侧显示大纲
+
+- 右侧显示大纲
 symbols-tree-view
-# 代码格式化
+
+- 代码格式化
 atom-beautify
-# 在atom下运行脚本，支持多种开发语言。
+- 在atom下运行脚本，支持多种开发语言。
 script
-# 填写路径的时候有提示
+- 填写路径的时候有提示
 autocomplete-paths
 autocomplete-modules
+
+--- markdown插件
+
+```
+- 可以设置显示缩进空格和参考线
+language-markdown
+
+- 同步滚动预览
+markdown-scroll-sync
+
+markdown-preview-auto-open-close
+开启/关闭 Markdown 文件时自动开启/关闭预览功能
+
+ 图片粘贴(markdown-image-paste)
+ 表格编辑(markdown-table-editor)
+markdown-preview-enhanced
+- 方便管理图片、链接等
+markdown-writer
+
+- pdf导出
+markdown-themeable-pdf
+- pdf查看
+pdf-view
+
+ 代码增强(language-markdown)
 ```
 
-### vim插件
+--- vim插件
 
 ```
-# atom中开启vim模式
+- atom中开启vim模式
 vim-mode
-# 在vim模式中使用块操作
+- 在vim模式中使用块操作
 vim-mode-visual-block
-# 在vim模式可以使用命令行
+- 在vim模式可以使用命令行
 ex-mode
-# 常规模式下的相对行号
+- 常规模式下的相对行号
 relative-numbers
 ```
 
-### markdown插件
 
-```
-# 可以设置显示缩进空格和参考线，提供 Github Flavored Markdown 等 MD 高亮支持
-language-markdown
-# 方便管理图片、链接等
-markdown-writer
-# 同步滚动预览
-markdown-scroll-sync
-```
-
-### Git/github
+--- Git/github
 
 ```
 git-plus 在 Atom 里面执行 Git 命令，不用来回切换终端和编辑器
@@ -82,26 +116,28 @@ tree-view-git-status 文件夹git状态
 gist-it 快速分享代码到gist.github.com
 ```
 
-### python
+--- python
 
 ```
-# python代码自动补全
+- python代码自动补全
 autocomplete-python
-# Python跳转插件
+- Python跳转插件
 python-tools
-# python debug
+- python debug
 python-debugger
-# python编码规范检查
+- python编码规范检查
 linter-pep8
+
+hydrogen
 ```
 
-### 其它插件
+--- 其它插件
 
 ```
 Remote-FTP ftp管理工具，命令和图形化界面都支持。
 ```
 
-## 快捷键使用
+-- 快捷键使用
 
 ```
 若是有其他插件和这个快捷键冲突了，在个人 keymap 里面修改。
@@ -133,9 +169,3 @@ Command + ]    对选中内容向右缩进
 crtl+shift+i 插入图片，在安装了markdown-preview-enhanced插件才能用
 ctrl-m 相应括号之间，html tag之间等跳转
 ```
-
-the end
-
-这是一个适用于 Web 开发者的 Atom 插件列表。 有了这些插件帮助， Atom 可以为我们提供类似 IDE 的功能。刚接触 Atom ?
-
-语法支持 language-babel ES2016、ESNext、JSX 语法扩展 language-postcss PostCSS 语法高亮 自动补全 autocomplete-modules 模块名自动补全 autocomplete-paths 路径自动补全 atom-ternjs ES5, ES6, ES7, Node.js, jQuery, Angular 等等 js 代码自动补全 emmet 快速手写 HTML, CSS, Sass / SCSS / LESS 语法检查 linter 基本语法检查框架 linter-jshint 基于 jshint 的 JavaScript 语法检查插件 linter-eslint 基于 ESLint 的 JavaScript 语法检查插件 版本控制 git-plus 丢掉终端，在 Atom 里面执行 Git 命令 merge-conflicts 通过 Atom 处理冲突的文件 扩展功能 file-icons 显示文件类型对应的图标 pigments 代码颜色可视化 color-picker 取色器 highlight-selected 高亮选中 minimap 源码预览图 minimap-highlight-selected 源码预览图中高亮选中 docblockr 注释插件 markdown-preview-plus markdown 实时预览 hyperclick 跳转到变量定义文件，需要配合 js-hyperclick 使用 js-hyperclick 跳转到变量定义文件，需要配合 hyperclick 使用 travis-ci-status 底部状态栏扩展
