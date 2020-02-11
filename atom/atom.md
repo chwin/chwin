@@ -1,9 +1,5 @@
 [toc]
 
-
-
-
-
 atom中选取多行可以通过快捷键ctrl+shift，上下左右可以移动选择的光标
 
 - 配置
@@ -19,20 +15,27 @@ ui主题和语法主题必须保持一致，否则markdown文件不能语法高�
 - 同步Atom配置
   sync-settings
 
-- emacs快捷键绑定
-  atomic-emacs
-
-- 对齐插件
-  aligner
-
-- 显示时钟
+ 显示时钟
   Atom Clock
 
 - 显示文件类型图标
 file-type-icons
 
-- 光标自由切换到上一次/下一次编辑位置（option--  option-_)
+- 光标自由切换到上一次/下一次编辑位置
 last-cursor-position
+
+- 提供完整的源码预浏览作用，能够定位你正在编辑的文件总貌。
+Minimap
+
+- 光标移到时，同时在文件总貌预览中跟随移动，从而判断你当前位于文件的哪个位置。
+Minimap cursorline
+
+
+
+
+
+- 对齐插件
+  aligner
 
 - 打开文件路径自动补全
 advanced-open-filef
@@ -43,11 +46,7 @@ bracket-close-jump
 - 能够在计算机之间同步已经安装好的包
 Package sync
 
-- 提供完整的源码预浏览作用，能够定位你正在编辑的文件总貌。
-Minimap
 
-- 光标移到时，同时在文件总貌预览中跟随移动，从而判断你当前位于文件的哪个位置。
-Minimap cursorline
 
 - 高亮当前所选文字，双击后全文这个词或者变量都会高亮哦
 highlight-selected
@@ -72,11 +71,18 @@ language-markdown
 - 同步滚动预览
 markdown-scroll-sync
 
-markdown-preview-auto-open-close
-开启/关闭 Markdown 文件时自动开启/关闭预览功能
 
- 图片粘贴(markdown-image-paste)
- 表格编辑(markdown-table-editor)
+图片粘贴(markdown-image-paste)
+表格编辑(markdown-table-editor)
+
+    | 左对齐 | 右对齐 | 居中对齐 |
+    | :-----| ----: | :----: |
+    | 单元格 | 单元格 | 单    元格 |
+    | 单元格 | 单元格 | 单元格 |
+    |dfj|sdfj|sdlfj|    
+
+
+
 markdown-preview-enhanced
 - 方便管理图片、链接等
 markdown-writer
