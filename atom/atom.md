@@ -1,8 +1,22 @@
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [配置](#配置)
+- [插件安装](#插件安装)
+	- [必装插件](#必装插件)
+	- [markdown插件](#markdown插件)
+	- [vim插件](#vim插件)
+	- [Git/github](#gitgithub)
+	- [python插件](#python插件)
+	- [其它插件](#其它插件)
+	- [快捷键使用](#快捷键使用)
+
+<!-- /TOC -->
+
 [toc]
 
 atom中选取多行可以通过快捷键ctrl+shift，上下左右可以移动选择的光标
 
-- 配置
+# 配置
 
 ui主题和语法主题必须保持一致，否则markdown文件不能语法高亮
 
@@ -10,25 +24,31 @@ ui主题和语法主题必须保持一致，否则markdown文件不能语法高�
 ## 必装插件
 
 - Atom的简体中文语言包，完整汉化，兼容所有已发布的版本Atom。
-- simplified-chinese-menu
+  simplified-chinese-menu
 
 - 同步Atom配置
   sync-settings
 
- 显示时钟
+- 显示时钟
   Atom Clock
 
 - 显示文件类型图标
-file-type-icons
+  file-type-icons
 
 - 光标自由切换到上一次/下一次编辑位置
-last-cursor-position
+  last-cursor-position
 
 - 提供完整的源码预浏览作用，能够定位你正在编辑的文件总貌。
-Minimap
+  Minimap
 
 - 光标移到时，同时在文件总貌预览中跟随移动，从而判断你当前位于文件的哪个位置。
-Minimap cursorline
+  Minimap cursorline
+
+- 局部选择插件
+  Sublime-Style-Column-Selection
+
+
+
 
 
 
@@ -37,81 +57,66 @@ Minimap cursorline
 - 对齐插件
   aligner
 
-- 打开文件路径自动补全
-advanced-open-filef
-
-- 按tab键跳出括号
-bracket-close-jump
-
-- 能够在计算机之间同步已经安装好的包
-Package sync
 
 
+## markdown插件
 
-- 高亮当前所选文字，双击后全文这个词或者变量都会高亮哦
-highlight-selected
+- 显示markdown大纲
+  document-outline
 
-- 右侧显示大纲
-symbols-tree-view
+- 编辑环境和预览位置同步
+  markdown-scroll-sync
 
-- 代码格式化
-atom-beautify
-- 在atom下运行脚本，支持多种开发语言。
-script
-- 填写路径的时候有提示
-autocomplete-paths
-autocomplete-modules
+- 自动格式化markdown
+  tidy-markdown
 
---- markdown插件
+- 优化markdown编辑的环境
+  markdown-writer
 
-```
-- 可以设置显示缩进空格和参考线
-language-markdown
+- 生成目录
+  markdown-toc
 
-- 同步滚动预览
-markdown-scroll-sync
+-
+  linter-markdown
 
+- 简化markdown的表格制作
+  markdown-table-editor
 
-图片粘贴(markdown-image-paste)
-表格编辑(markdown-table-editor)
+- 在编辑器中直接插入图片的插件
+  markdown-img-paste
+  markdown-image-paste
 
-    | 左对齐 | 右对齐 | 居中对齐 |
-    | :-----| ----: | :----: |
-    | 单元格 | 单元格 | 单    元格 |
-    | 单元格 | 单元格 | 单元格 |
-    |dfj|sdfj|sdlfj|    
+- 高亮语法，设置显示缩进空格和参考线
+  language-markdown
 
+markdown-pdf
 
 
 markdown-preview-enhanced
 - 方便管理图片、链接等
-markdown-writer
+
 
 - pdf导出
-markdown-themeable-pdf
+  markdown-themeable-pdf
+
 - pdf查看
-pdf-view
+  pdf-view
 
- 代码增强(language-markdown)
-```
+## vim插件
 
---- vim插件
-
-```
 - atom中开启vim模式
-vim-mode
+  vim-mode
 - 在vim模式中使用块操作
-vim-mode-visual-block
+  vim-mode-visual-block
 - 在vim模式可以使用命令行
-ex-mode
+  ex-mode
 - 常规模式下的相对行号
-relative-numbers
-```
+  relative-numbers
 
 
---- Git/github
+## Git/github
 
-```
+
 git-plus 在 Atom 里面执行 Git 命令，不用来回切换终端和编辑器
 git-control git面板
 merge-conflicts 在 Atom 里面处理合并产生冲突的文件 git提交记录
@@ -120,11 +125,10 @@ git-log 以图形方式显示log
 git-status 快捷键查看git状态
 tree-view-git-status 文件夹git状态
 gist-it 快速分享代码到gist.github.com
-```
 
---- python
 
-```
+## python插件
+
 - python代码自动补全
 autocomplete-python
 - Python跳转插件
@@ -135,17 +139,40 @@ python-debugger
 linter-pep8
 
 hydrogen
-```
 
---- 其它插件
 
-```
+## 其它插件
+
+
 Remote-FTP ftp管理工具，命令和图形化界面都支持。
-```
+- 打开文件路径自动补全
+  advanced-open-filef
 
--- 快捷键使用
+- 按tab键跳出括号
+  bracket-close-jump
 
-```
+- 能够在计算机之间同步已经安装好的包
+  Package sync
+
+
+
+- 高亮当前所选文字，双击后全文这个词或者变量都会高亮哦
+  highlight-selected
+
+- 右侧显示大纲
+  symbols-tree-view
+
+- 代码格式化
+  atom-beautify
+- 在atom下运行脚本，支持多种开发语言。
+  script
+- 填写路径的时候有提示
+autocomplete-paths
+autocomplete-modules
+
+
+## 快捷键使用
+
 若是有其他插件和这个快捷键冲突了，在个人 keymap 里面修改。
 unset 功能，挺简单也很实用。直接取消快捷键的命令。
 'atom-text-editor':
