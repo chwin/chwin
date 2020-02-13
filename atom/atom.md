@@ -1,20 +1,6 @@
-<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-- [配置](#配置)
-- [插件安装](#插件安装)
-	- [必装插件](#必装插件)
-	- [markdown插件](#markdown插件)
-	- [vim插件](#vim插件)
-	- [Git/github](#gitgithub)
-	- [python插件](#python插件)
-	- [其它插件](#其它插件)
-	- [快捷键使用](#快捷键使用)
-
-<!-- /TOC -->
 
 [toc]
-
-atom中选取多行可以通过快捷键ctrl+shift，上下左右可以移动选择的光标
 
 # 配置
 
@@ -46,11 +32,6 @@ ui主题和语法主题必须保持一致，否则markdown文件不能语法高�
 
 - 局部选择插件
   Sublime-Style-Column-Selection
-
-
-
-
-
 
 
 
@@ -167,8 +148,8 @@ Remote-FTP ftp管理工具，命令和图形化界面都支持。
 - 在atom下运行脚本，支持多种开发语言。
   script
 - 填写路径的时候有提示
-autocomplete-paths
-autocomplete-modules
+  autocomplete-paths
+  autocomplete-modules
 
 
 ## 快捷键使用
@@ -201,4 +182,23 @@ Command + [    对选中内容向左缩进
 Command + ]    对选中内容向右缩进
 crtl+shift+i 插入图片，在安装了markdown-preview-enhanced插件才能用
 ctrl-m 相应括号之间，html tag之间等跳转
-```
+
+
+
+
+| sdfj  |  sdfj   | sdjklf |
+| :---- | :-----: | -----: |
+| sdlfj | sdlfkjk |  sldkj |
+
+1. dlfj
+6. sdlfkj
+3. sdlkjf
+5. sdlfj
+
+
+    1. 2lksdljl
+    2. sdlfj
+    4. sdlfj
+    3. sldfj
+    3. sldaj
+    
