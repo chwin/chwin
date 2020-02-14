@@ -1,23 +1,34 @@
-# Dfsdafw dsaf sdaafasd sdf
+01 Intro
+02 我行我素
+03 新人王
+04 志玲姊姊来找我
+05 我爱台妹
+06 毋忘在莒
+07 马祖小夜曲
+08 Introducing 哑色小狗
+09 2006冠军情歌
+10 Tiger Style
+11 母老虎
+12 我们的 Party 最扯
+13 我小时候都去TU
+14 烦死人
+15 我的生活II
+16 Outro
+17 安可
 
-- sadlkf sadf asldg
+哈狗帮
+补习
+韩流来袭
+就是那个光
+你要去哪里
 
 
 
 
 
 
+<wake up>
+⊙我行我素
+⊙一切都是真的。
 
-- Dsfgsdgsdg\
-
-  | Vd   | Ddfdf | Dfdf |
-  | ---- | ----- | ---- |
-  |  的  的是啊    | Dfdf  |     
- 
-
-  1. dsfj
-  3. sdlfj
-  4. dfj
-
-
-
+差不多先生
