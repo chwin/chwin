@@ -53,7 +53,7 @@
 
 # 卸载
 - 卸载安装包
-brew uninstall [包名]
+  brew uninstall [包名]
 
 - 卸载Homebrew
   cd `brew --prefix`
