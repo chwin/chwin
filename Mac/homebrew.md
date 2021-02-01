@@ -63,3 +63,14 @@
   rm -r Library/Homebrew Library/Aliases Library/Formula Library/Contributions
   rm -rf .git
   rm -rf ~/Library/Caches/Homebrew
+
+
+brew install wget: 安装wget包(Homebrew 会将软件包安装到独立目录, 并将其文件软链接至 /usr/local).
+brew search mysql: 搜索.
+brew info mysql: 主要看具体的信息. 比如目前的版本, 依赖, 安装后注意事项等.
+brew update: 更新Homebrew.
+brew outdated: 列出所有安装包里可以升级的包.
+brew upgrade: 升级所有可以升级包.
+brew cleanup: 清理不需要的版本极其安装包缓存.
+brew reinstall mysql: 重新覆盖安装包.
+brew doctor: 检查有没有问题
