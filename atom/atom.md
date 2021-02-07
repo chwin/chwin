@@ -1,12 +1,9 @@
-
-
-[toc]
-
 # 配置
 
 ui主题和语法主题必须保持一致，否则markdown文件不能语法高亮
 
-# 插件安装
+## 插件安装
+
 ## 必装插件
 
 - Atom的简体中文语言包，完整汉化，兼容所有已发布的版本Atom。
@@ -188,7 +185,7 @@ ctrl-m 相应括号之间，html tag之间等跳转
 
 | sdfj  |  sdfj   | sdjklf |
 | :---- | :-----: | -----: |
-| sdlfj | sdlfkjk |  sldkj |
+| sdsdf   lfj | s dlfkjk |  sldkj |
 
 1. dlfj
 6. sdlfkj
