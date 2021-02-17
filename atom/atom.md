@@ -12,10 +12,10 @@ ui主题和语法主题必须保持一致，否则markdown文件不能语法高�
 - 同步Atom配置
   sync-settings
 
-- 显示时钟
-  Atom Clock
+- 多选工具
+  Sublime Style Column Selection
 
-- 显示文件类型图标
+  - 显示文件类型图标
   file-type-icons
 
 - 光标自由切换到上一次/下一次编辑位置
@@ -29,8 +29,6 @@ ui主题和语法主题必须保持一致，否则markdown文件不能语法高�
 
 - 局部选择插件
   Sublime-Style-Column-Selection
-
-
 
 - 对齐插件
   aligner
@@ -180,22 +178,4 @@ Command + ]    对选中内容向右缩进
 crtl+shift+i 插入图片，在安装了markdown-preview-enhanced插件才能用
 ctrl-m 相应括号之间，html tag之间等跳转
 
-
-
-
-| sdfj  |  sdfj   | sdjklf |
-| :---- | :-----: | -----: |
-| sdsdf   lfj | s dlfkjk |  sldkj |
-
-1. dlfj
-6. sdlfkj
-3. sdlkjf
-5. sdlfj
-
-
-    1. 2lksdljl
-    2. sdlfj
-    4. sdlfj
-    3. sldfj
-    3. sldaj
-    
+linter-ui-default

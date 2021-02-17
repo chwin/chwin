@@ -1,3 +1,9 @@
+---
+tags: []
+pinned: true
+created: 2021-01-27T07:22:14.204Z
+modified: 2021-02-17T17:28:17.989Z
+---
 
 rsync -avz /opt /mnt
 # 将本地文件推送到远程服务器

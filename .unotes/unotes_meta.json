@@ -1,0 +1,103 @@
+{
+  "name": "",
+  "isOrdered": true,
+  "folders": {
+    "assets": {
+      "name": "assets",
+      "isOrdered": true,
+      "folders": {},
+      "files": {}
+    },
+    "atom": {
+      "name": "atom",
+      "isOrdered": true,
+      "folders": {},
+      "files": {
+        "atom": 0
+      }
+    },
+    "linux": {
+      "name": "linux",
+      "isOrdered": true,
+      "folders": {
+        "backup": {
+          "name": "backup",
+          "isOrdered": true,
+          "folders": {},
+          "files": {}
+        },
+        "disk": {
+          "name": "disk",
+          "isOrdered": true,
+          "folders": {},
+          "files": {}
+        },
+        "file": {
+          "name": "file",
+          "isOrdered": true,
+          "folders": {},
+          "files": {}
+        },
+        "network": {
+          "name": "network",
+          "isOrdered": true,
+          "folders": {},
+          "files": {}
+        },
+        "sh": {
+          "name": "sh",
+          "isOrdered": true,
+          "folders": {},
+          "files": {}
+        },
+        "softsetup": {
+          "name": "softsetup",
+          "isOrdered": true,
+          "folders": {},
+          "files": {}
+        },
+        "system": {
+          "name": "system",
+          "isOrdered": true,
+          "folders": {},
+          "files": {}
+        },
+        "View": {
+          "name": "View",
+          "isOrdered": true,
+          "folders": {},
+          "files": {}
+        }
+      },
+      "files": {
+        "pkill": 0,
+        "git": 1,
+        "vim": 2
+      }
+    },
+    "Mac": {
+      "name": "Mac",
+      "isOrdered": true,
+      "folders": {},
+      "files": {}
+    },
+    "markdown": {
+      "name": "markdown",
+      "isOrdered": true,
+      "folders": {},
+      "files": {}
+    },
+    "vscode": {
+      "name": "vscode",
+      "isOrdered": true,
+      "folders": {},
+      "files": {}
+    }
+  },
+  "files": {
+    "Item2": 0,
+    "aa": 1,
+    "markdown": 2,
+    "test": 3
+  }
+}
