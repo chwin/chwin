@@ -1,13 +1,13 @@
 # 欢迎使用 Cmd Markdown 编辑阅读器
 
---------------------------------------------------------------------------------
+- - -
 
 我们理解您需要更便捷更高效的工具记录思想，整理笔记、知识，并将其中承载的价值传播给他人，**Cmd Markdown** 是我们给出的答案 ---- 我们为记录思想和分享知识提供更专业的工具。 您可以使用 Cmd Markdown：
 
-> - 整理知识，学习笔记
-> - 发布日记，杂文，所见所想
-> - 撰写发布技术文稿（代码支持）
-> - 撰写发布学术论文（LaTeX 公式支持）
+> * 整理知识，学习笔记
+> * 发布日记，杂文，所见所想
+> * 撰写发布技术文稿（代码支持）
+> * 撰写发布学术论文（LaTeX 公式支持）
 
 ![cmd-markdown-logo](https://www.zybuluo.com/static/img/logo.png)
 
@@ -15,29 +15,29 @@
 
 ## [Windows/Mac/Linux 全平台客户端](https://www.zybuluo.com/cmd/)
 
-> 请保留此份 Cmd Markdown 的欢迎稿兼使用说明，如需撰写新稿件，点击顶部工具栏右侧的 __ **新文稿** 或者使用快捷键 `Ctrl+Alt+N`。
+> 请保留此份 Cmd Markdown 的欢迎稿兼使用说明，如需撰写新稿件，点击顶部工具栏右侧的 \_\_ **新文稿** 或者使用快捷键 `Ctrl+Alt+N`。
 
---------------------------------------------------------------------------------
+- - -
 
 ## 什么是 Markdown
 
-Markdown 是一种方便记忆、书写的纯文本标记语言，用户可以使用这些标记符号以最小的输入代价生成极富表现力的文档：譬如您正在阅读的这份文档。它使用简单的符号标记不同的标题，分割不同的段落，**粗体** 或者 _斜体_ 某些文字，更棒的是，它还可以
+Markdown 是一种方便记忆、书写的纯文本标记语言，用户可以使用这些标记符号以最小的输入代价生成极富表现力的文档：譬如您正在阅读的这份文档。它使用简单的符号标记不同的标题，分割不同的段落，**粗体** 或者 *斜体* 某些文字，更棒的是，它还可以
 
-### 1\. 制作一份待办事宜 [Todo 列表](https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#13-待办事宜-todo-列表)
+### 1\. 制作一份待办事宜 [Todo 列表](https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#13-%E5%BE%85%E5%8A%9E%E4%BA%8B%E5%AE%9C-todo-%E5%88%97%E8%A1%A8)
 
-- [ ] 支持以 PDF 格式导出文稿
-- [ ] 改进 Cmd 渲染算法，使用局部渲染技术提高渲染效率
-- [x] 新增 Todo 列表功能
-- [x] 修复 LaTex 公式渲染问题
-- [x] 新增 LaTex 公式编号功能
+* [ ] 支持以 PDF 格式导出文稿
+* [ ] 改进 Cmd 渲染算法，使用局部渲染技术提高渲染效率
+* [x] 新增 Todo 列表功能
+* [x] 修复 LaTex 公式渲染问题
+* [x] 新增 LaTex 公式编号功能
 
-### 2\. 书写一个质能守恒公式[^LaTeX]
+### 2\. 书写一个质能守恒公式\[^LaTeX\]
 
 $$E=mc^2$$
 
-### 3\. 高亮一段代码[^code]
+### 3\. 高亮一段代码\[^code\]
 
-```python
+``` python
 @requires_authorization
 class SomeClass:
     pass
@@ -47,9 +47,9 @@ if __name__ == '__main__':
     print 'hello world'
 ```
 
-### 4\. 高效绘制 [流程图](https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#7-流程图)
+### 4\. 高效绘制 [流程图](https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#7-%E6%B5%81%E7%A8%8B%E5%9B%BE)
 
-```flow
+``` flow
 st=>start: Start
 op=>operation: Your Operation
 cond=>condition: Yes or No?
@@ -60,17 +60,17 @@ cond(yes)->e
 cond(no)->op
 ```
 
-### 5\. 高效绘制 [序列图](https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#8-序列图)
+### 5\. 高效绘制 [序列图](https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#8-%E5%BA%8F%E5%88%97%E5%9B%BE)
 
-```seq
+``` seq
 Alice->Bob: Hello Bob, how are you?
 Note right of Bob: Bob thinks
 Bob-->Alice: I am good thanks!
 ```
 
-### 6\. 高效绘制 [甘特图](https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#9-甘特图)
+### 6\. 高效绘制 [甘特图](https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#9-%E7%94%98%E7%89%B9%E5%9B%BE)
 
-```gantt
+``` gantt
 title 项目开发流程
     section 项目确定
         需求分析       :a1, 2016-06-22, 3d
@@ -88,19 +88,19 @@ title 项目开发流程
 
 ### 7\. 绘制表格
 
-项目  |     价格 | 数量
---- | -----: | :-:
-计算机 | \$1600 |  5
-手机  |   \$12 | 12
-管线  |    \$1 | 234
+| 项目 | 价格 | 数量 |
+| --- | ---: | :---: |
+| 计算机 | $1600 | 5 |
+| 手机 | $12 | 12 |
+| 管线 | $1 | 234 |
 
 ### 8\. 更详细语法说明
 
-想要查看更详细的语法说明，可以参考我们准备的 [Cmd Markdown 简明语法手册][1]，进阶用户可以参考 [Cmd Markdown 高阶语法手册][2] 了解更多高级功能。
+想要查看更详细的语法说明，可以参考我们准备的 \[Cmd Markdown 简明语法手册\]\[1\]，进阶用户可以参考 \[Cmd Markdown 高阶语法手册\]\[2\] 了解更多高级功能。
 
-总而言之，不同于其它 _所见即所得_ 的编辑器：你只需使用键盘专注于书写文本内容，就可以生成印刷级的排版格式，省却在键盘和工具栏之间来回切换，调整内容和格式的麻烦。**Markdown 在流畅的书写和印刷级的阅读体验之间找到了平衡。** 目前它已经成为世界上最大的技术分享网站 GitHub 和 技术问答网站 StackOverFlow 的御用书写格式。
+总而言之，不同于其它 *所见即所得* 的编辑器：你只需使用键盘专注于书写文本内容，就可以生成印刷级的排版格式，省却在键盘和工具栏之间来回切换，调整内容和格式的麻烦。**Markdown 在流畅的书写和印刷级的阅读体验之间找到了平衡。** 目前它已经成为世界上最大的技术分享网站 GitHub 和 技术问答网站 StackOverFlow 的御用书写格式。
 
---------------------------------------------------------------------------------
+- - -
 
 ## 什么是 Cmd Markdown
 
@@ -146,11 +146,11 @@ title 项目开发流程
 
 工具栏上的五个图标依次为：
 
-**目录：快速导航当前文稿的目录结构以跳转到感兴趣的段落** 视图：互换左边编辑区和右边预览区的位置 **主题：内置了黑白两种模式的主题，试试** 黑色主题**，超炫！** 阅读：心无旁骛的阅读模式提供超一流的阅读体验 __ 全屏：简洁，简洁，再简洁，一个完全沉浸式的写作和阅读环境
+**目录：快速导航当前文稿的目录结构以跳转到感兴趣的段落** 视图：互换左边编辑区和右边预览区的位置 **主题：内置了黑白两种模式的主题，试试** 黑色主题\*\*，超炫！\*\* 阅读：心无旁骛的阅读模式提供超一流的阅读体验 \_\_ 全屏：简洁，简洁，再简洁，一个完全沉浸式的写作和阅读环境
 
 ### 8\. 阅读模式
 
-在 **阅读工具栏** 点击 __ 或者按下 `Ctrl+Alt+M` 随即进入独立的阅读模式界面，我们在版面渲染上的每一个细节：字体，字号，行间距，前背景色都倾注了大量的时间，努力提升阅读的体验和品质。
+在 **阅读工具栏** 点击 \_\_ 或者按下 `Ctrl+Alt+M` 随即进入独立的阅读模式界面，我们在版面渲染上的每一个细节：字体，字号，行间距，前背景色都倾注了大量的时间，努力提升阅读的体验和品质。
 
 ### 9\. 标签、分类和搜索
 
@@ -164,19 +164,19 @@ title 项目开发流程
 
 ### 10\. 文稿发布和分享
 
-在您使用 Cmd Markdown 记录，创作，整理，阅读文稿的同时，我们不仅希望它是一个有力的工具，更希望您的思想和知识通过这个平台，连同优质的阅读体验，将他们分享给有相同志趣的人，进而鼓励更多的人来到这里记录分享他们的思想和知识，尝试点击 __ (Ctrl+Alt+P) 发布这份文档给好友吧！
+在您使用 Cmd Markdown 记录，创作，整理，阅读文稿的同时，我们不仅希望它是一个有力的工具，更希望您的思想和知识通过这个平台，连同优质的阅读体验，将他们分享给有相同志趣的人，进而鼓励更多的人来到这里记录分享他们的思想和知识，尝试点击 \_\_ (Ctrl+Alt+P) 发布这份文档给好友吧！
 
---------------------------------------------------------------------------------
+- - -
 
-再一次感谢您花费时间阅读这份欢迎稿，点击 __ (Ctrl+Alt+N) 开始撰写新的文稿吧！祝您在这里记录、阅读、分享愉快！
+再一次感谢您花费时间阅读这份欢迎稿，点击 \_\_ (Ctrl+Alt+N) 开始撰写新的文稿吧！祝您在这里记录、阅读、分享愉快！
 
-作者 [@ghosert][3] 2016 年 07月 07日
+作者 \[@ghosert\]\[3\] 2016 年 07月 07日
 
-[^LaTeX]: 支持 **LaTeX** 编辑显示支持，例如：$\sum_{i=1}^n a_i=0$， 访问 [MathJax][4] 参考更多使用方法。
+\[^LaTeX\]: 支持 **LaTeX** 编辑显示支持，例如：$\sum\_\{i=1\}^n a\_i=0$， 访问 \[MathJax\]\[4\] 参考更多使用方法。
 
-[^code]: 代码高亮功能支持包括 Java, Python, JavaScript 在内的，**四十一**种主流编程语言。
+\[^code\]: 代码高亮功能支持包括 Java\, Python\, JavaScript 在内的，**四十一**种主流编程语言。
 
-[1]: https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown
-[2]: https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#cmd-markdown-高阶语法手册
-[3]: http://weibo.com/ghosert
-[4]: http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference
+\[1\]: https://www\.zybuluo\.com/mdeditor?url=https://www\.zybuluo\.com/static/editor/md\-help\.markdown
+\[2\]: https://www\.zybuluo\.com/mdeditor?url=https://www\.zybuluo\.com/static/editor/md\-help\.markdown\#cmd\-markdown\-高阶语法手册
+\[3\]: http://weibo\.com/ghosert
+\[4\]: http://meta\.math\.stackexchange\.com/questions/5020/mathjax\-basic\-tutorial\-and\-quick\-reference

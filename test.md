@@ -1,23 +1,31 @@
-| col1             | col2         | col3           |
-| ---------------- | ------------ | -------------- |
-| 去要要要工在在去 | 去要工要在去 | 去要要要要工要 |
-|                  | fs           |                |
+| 命令               | 说明                      | 备注 |
+| ------------------ | ------------------------- | ---- |
+| command + d        | ff                        |      |
+| command+ shift + v | 打开 markdown 预览        |      |
+| command+ shift + v | 打开 markdown 预览        |      |
+| command+ shift + v | 打开 markdown 预览        |      |
+| command+ shift + v | 打开 marsdsakdo wn 预览   |      |
+| command+ shift + v | 打开 marsdsakdown 预览    |      |
+| command+ shift + v | 打开 marsdsakdown 预览    |      |
+| command+ shift + v | 打开 marsdsakdo wn 预览   |      |
+| command+ shift + v | 打开 marsdfsdsakdown 预览 |      |
+| command+ shift + v | 打开 marsdsakdo wn 预览   |      |
+| command+ shift + v | 打开 marsdsakdown 预览    |      |
+| command+ shift + v | 打开 sda 预览             |      |
+| command+ shift + v | 打开 marsdsakdown 预览    | fdg  |
+| command+ shift + v | 打开 marsdsakdown 预览    |      |
+| command+ shift + v | 打开 m 预览               |      |
+| command+ shift + v | 打开 markdown 预览        |      |
 
-# ldsfj
-
-## sldfj
-
-### saldfjk
-
-#\* sldfj
-
-* dslfjas
-
-<br>
-| nmnjlkhlkl;klh; |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |
-| --------------- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| fff             |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |
-|                 |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |
-|                 |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |
-|                 |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |
-|                 |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |
+|     |     |     |     |     |     |
+| --- | --- | --- | --- | --- | --- |
+|     |     |     |     | 1   |     |
+|     |     |     |     |     |     |
+|     |     |     |     | 2   |     |
+|     |     |     |     | 3   |     |
+|     |     |     |     |     |     |
+|     |     |     |     | 5   |     |
+|     |     |     |     |     |     |
+|     |     |     |     |     |     |
+|     |     |     |     |     |     |
+|     |     |     |     |     |     |

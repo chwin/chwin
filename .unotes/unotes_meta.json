@@ -79,19 +79,35 @@
       "name": "Mac",
       "isOrdered": true,
       "folders": {},
-      "files": {}
+      "files": {
+        "homebrew": 0,
+        "EFI": 1,
+        "使用技巧": 2,
+        "安装注意事项": 3,
+        "安装流程": 4,
+        "快捷键": 5,
+        "系统、软件配置": 6,
+        "软件安装列表": 7,
+        "高频操作": 8
+      }
     },
     "markdown": {
       "name": "markdown",
       "isOrdered": true,
       "folders": {},
-      "files": {}
+      "files": {
+        "markdownlint": 0,
+        "markdown": 1
+      }
     },
     "vscode": {
       "name": "vscode",
       "isOrdered": true,
       "folders": {},
-      "files": {}
+      "files": {
+        "配置文件": 0,
+        "vs code": 1
+      }
     }
   },
   "files": {
