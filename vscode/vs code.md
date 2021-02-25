@@ -17,7 +17,7 @@ modified: 2021-02-17T17:24:19.897Z
 Option + Shift + A // markdown 加标注
 
 | 命令               | 说明               | 备注 |
-| ------------------ | ------------------ | ---- |
+|--------------------|--------------------|------|
 | command + d        |                    |      |
 | command+ shift + v | 打开 markdown 预览 |      |
  Command + P // 快捷键快速打开无前缀的命令面板，用于输入名字跳转文件，或填写其它前缀 ( 如两条编辑器命令 ) ：
@@ -41,7 +41,7 @@ tab
 ### 必备插件
 
 | 名称                            | 用途                               | 评级 |
-| ------------------------------- | ---------------------------------- | ---- |
+|---------------------------------|------------------------------------|------|
 | Chinese ( Simplified ) Language | 汉化                               | 1    |
 | iceworks                        | iceworks app 插件套 很加的开发工具 | 2    |
 | 会了吧                          | 英语单词统计                       | 2    |
@@ -59,10 +59,6 @@ tab
 
 | 名称                      | 用途                                                     | 评级 |
 | ------------------------- | -------------------------------------------------------- | ---- |
-| markdownlint              | 语法检测                                                 | 1    |
-| Markdown Preview Enhanced | markdown 文档预览                                        | 1    |
-| Markdown All in One       | 集成多个 markdown 插件 （表格格式化末尾无文字会留空）    | 1    |
-| excel-to-markdown-table   | excel 复制粘贴到 markdow                                 | 3    |
 | Markdown Header Coloring  | 标题颜色                                                 |      |
 | Markdown Image            | 插入图片，支持将图片存放在本地或第三方的图床或对象存储。 |      |
 | Markdown Paste            | 粘贴图片或带格式文字                                     |      |
@@ -72,13 +68,17 @@ tab
 | MarkdownFormat            | （作者 liushilive) 处理中英文混排、删空行                |      |
 | Markdown table formatter  | 格式化表格 （末尾不留空）、表格排序                      |      |
 | markmap                   | 导出思维导图                                             |      |
+| markdownlint              | 语法检测                                                 | 1    |
+| Markdown Preview Enhanced | markdown 文档预览                                        | 1    |
+| Markdown All in One       | 集成多个 markdown 插件 （表格格式化末尾无文字会留空）    | 1    |
+| excel-to-markdown-table   | excel 复制粘贴到 markdow                                 | 3    |
 
 ## 其它插件
 
 ## Github 插件
 
 | 名称                 | 用途                 | 评级 |
-| -------------------- | -------------------- | ---- |
+|----------------------|----------------------|------|
 |                      |                      |      |
 | GitHub Pull Requests | github               |      |
 | GitHub Theme         | github 主题          |      |
