@@ -1,0 +1,22 @@
+
+1. 安装vsftpd
+    使用命令 brew install vsftpd
+
+2. 设置配置文件为根用户所有
+    运行命令：sudo chown root /usr/local/etc/vsftpd.conf
+
+3. 修改配 vsftpd.conf 置文件
+    开启：
+    ocal_enable=YES
+    write_enable=YES
+
+4. 新增用户
+
+5. 开启服务
+    使用命令：sudo brew services start vsftpd
+
+6. 登陆
+
+2. 在vsftpd配置文件中添加自己的配置，配置文件路径：/usr/local/etc/vsftpd.conf
+更改配置文件所有者为root，否则该服务将无法启动：sudo chown root /usr/local/etc/vsftpd.conf
+brew services start vsftpd开机自启，如果不需要后台服务的话在需要时执行：sudo vsftpd

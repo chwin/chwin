@@ -1,55 +1,66 @@
-*** find
-    通过以下的命令可以找到系统上所有的设置了suid的文件：
-    [root@sgrid5 /]# find / -perm -04000 -type f -ls
+# find
 
-    -empty # 查找空白文件或目录
-    -group # 按组查找
-    -user  # 按用户查找
-    -name  # 按名称查找
-    -iname  # 按名称查找,不区分大小写
-    -mtime # 按修改时间查找
-    -size # 按容量大小查找
-    -type #按档案类型查找 f文件 d目录 b块设备 c字符型设备 l链接文件
-    -exec # 对查找的档案执行命令
-    -a # 并且
-    -o # 或者
+## 常用经典实例
+
+```zsh
+    # 删除 180 天之前的 log 文件
+    find .  -type f  -name *.log  -mtime +180  -exec rm {} \;
+
+    # 搜索多个类型的文件
+    find . -iname "*.jpg" -o -iname "*.png" -o -iname "*.gif"
+```
+
+-empty # 查找空白文件或目录
+-group # 按组查找
+-user  # 按用户查找
+-name  # 按名称查找
+-iname  # 按名称查找，不区分大小写
+-mtime # 按修改时间查找
+-size # 按容量大小查找
+-type # 按档案类型查找 f 文件 d 目录 b 块设备 c 字符型设备 l 链接文件
+-exec # 对查找的档案执行命令
+-a # 并且
+-o # 或者
 
 find . -name "file???"
 find . -iname "file"  # 不区分大小写
-find / -mtime -3 # 查找3天内被修改过的文件
-find / -mtime +4 # 查找4天前被修改过的文件
-find / -mtime 2  # 查找2天前被修改过的文件
-find ./ -size +10M # 查找大于10M的文件
+find / -mtime -3 # 查找 3 天内被修改过的文件
+find / -mtime +4 # 查找 4 天前被修改过的文件
+find / -mtime 2  # 查找 2 天前被修改过的文件
+find ./ -size +10M # 查找大于 10M 的文件
 find ./ -type f # 查找所有普通文件
-find ./ -user tom # 查找所属用户tom的文件
-find ./ -size +1M -exec ls -l {} \;  # 查出大于1M文件后列出文件详细信息
-find ./ -size +1M -a -type f # 查找所有大于1M的文件
+find ./ -user tom # 查找所属用户 tom 的文件
+find ./ -size +1M -exec ls -l {} \;  # 查出大于 1M 文件后列出文件详细信息
+find ./ -size +1M -a -type f # 查找所有大于 1M 的文件
 find /home -amin -10  # 十分钟内存取的文件或目录
 find /home -atime -10 # 十小时内存取的文件或目录
 find /home -cmin -10  # 十分钟内更改过的文件或目录
 find /home -ctime +10 # 十小时前更改过的文件或目录
-find /home -size +10k # 大小10K
+find /home -size +10k # 大小 10K
 find / -name filename # 从根目录开始查所有目录
 find / -name "*name*"
 find / -empty # 查找计算机上的所有空文件
-find / -group tom # 查找属组为tom的文件
+find / -group tom # 查找属组为 tom 的文件
 
 find / -name "*name*" -ls
 find / -name "*name*" -exec file {} \; 查找的文件放到大括号内。查看结果的类型
 find / -name "*name*" -exec rm {} \; 删除查找到的内容
 find / -name "*name*" -ok rm {} \; 删除查找到的内容 （交互确认）
-find /home -user shrek -ls 以例表的形式显示home目录下用户shrek的文件。
-find /home -user shrek -a -group shrek -ls 以例表的形式显示用户和用户组同为shrek的文件。（-a 是and的意思，-o 是or的意思 默认是与，-a可省略）
-find /home -user shrek -o -group shrek -a -type f -ls (-typef文件，d目录) 重点注意，-a -o的混合使用。
+find /home -user shrek -ls 以例表的形式显示 home 目录下用户 shrek 的文件。
+find /home -user shrek -a -group shrek -ls 以例表的形式显示用户和用户组同为 shrek 的文件。（-a 是 and 的意思，-o 是 or 的意思 默认是与，-a 可省略）
+find /home -user shrek -o -group shrek -a -type f -ls (-typef 文件，d 目录） 重点注意，-a -o 的混合使用。
 -user -type -name -group -perm -size -mtime -ok -exec -ls
-find / -perm -777 -type d -ls 入侵检测给常使用。（-type 前不用加-a 默认就是-a）
+find / -perm -777 -type d -ls 入侵检测给常使用。（-type 前不用加 -a 默认就是 -a）
 递归查找文件内的字符串 find ./ -name ‘*.html’ -exec grep “breadcrumbs.inc.php” ‘{}’ \; -print 这条命令将查找所有包含 breadcrumbs.inc.php 的 HTML 文件。
 查找文件
 $ find . -maxdepth 1 -type f
-# 找出所有用户xxx拥有的文件，拷备到/root/findfiles目录
+
+# 找出所有用户 xxx 拥有的文件，拷备到 /root/findfiles 目录
+
 find / -user xxx -type f -exec cp {} /root/findfiles \;
 
-# 查找/home 目录下文件拥有人是natasha,但拥有组不是natasha的文件复制到  /root/backup文件中
+# 查找 /home 目录下文件拥有人是 natasha, 但拥有组不是 natasha 的文件复制到  /root/backup 文件中
+
 find /home -user natasha -type f  -and ! -group natasha -exec cp {}  /root/backup \;
 
 其它下载，非视频教程内容
@@ -67,7 +78,7 @@ find /home -name "*txt" -o -name "*doc" -o -name "*mp3"
 
 使用说明 :
 
-将档案系统内符合expression 的档案列出来。你可以指要档案的名称、类别、时间、大小、权限等不同资讯的组合，只有完全相符的才会被列出来。
+将档案系统内符合 expression 的档案列出来。你可以指要档案的名称、类别、时间、大小、权限等不同资讯的组合，只有完全相符的才会被列出来。
 
 find 根据下列规则判断 path 和 expression，在命令列上第一个 - ( ) , ! 之前的部份为 path，之后的是 expression。如果 path 是空字串则使用目前路径，如果 expression 是空字串则使用 -print 为预设 expression。
 
@@ -83,11 +94,11 @@ expression 中可使用的选项有二三十个之多，在此只介绍最常用
 
 -cmin n : 在过去 n 分钟内被修改过
 
--cnewer file :比档案 file 更新的档案
+-cnewer file : 比档案 file 更新的档案
 
 -ctime n : 在过去 n 天过修改过的档案
 
--empty : 空的档案-gid n or -group name : gid 是 n 或是 group 名称是 name
+-empty : 空的档案 -gid n or -group name : gid 是 n 或是 group 名称是 name
 
 -ipath p, -path p : 路径名称符合 p 的档案，ipath 会忽略大小写
 
@@ -123,7 +134,7 @@ exp1 -or exp2
 
 exp1, exp2
 
-范例:
+范例：
 
 将目前目录及其子目录下所有延伸档名是 c 的档案列出来。
 
@@ -137,4 +148,4 @@ exp1, exp2
 
 # find . -ctime -20
 
-find . -name "*" -exec grep xxx {} ; -print |morexxx为你想要找的字符串
+find . -name "*" -exec grep xxx {} ; -print |morexxx 为你想要找的字符串
