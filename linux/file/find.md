@@ -3,44 +3,44 @@
 ## 常用经典实例
 
 ```zsh
-    # 删除 180 天之前的 log 文件
     find .  -type f  -name *.log  -mtime +180  -exec rm {} \;
+    # 删除 180 天之前的 log 文件
 
-    # 搜索多个类型的文件
     find . -iname "*.jpg" -o -iname "*.png" -o -iname "*.gif"
+    # 搜索多个类型的文件
 ```
 
--empty # 查找空白文件或目录
--group # 按组查找
--user  # 按用户查找
--name  # 按名称查找
+-empty  # 查找空白文件或目录
+-group  # 按组查找
+-user   # 按用户查找
+-name   # 按名称查找
 -iname  # 按名称查找，不区分大小写
--mtime # 按修改时间查找
--size # 按容量大小查找
--type # 按档案类型查找 f 文件 d 目录 b 块设备 c 字符型设备 l 链接文件
--exec # 对查找的档案执行命令
--a # 并且
--o # 或者
+-mtime  # 按修改时间查找
+-size   # 按容量大小查找
+-type   # 按档案类型查找 f 文件 d 目录 b 块设备 c 字符型设备 l 链接文件
+-exec   # 对查找的档案执行命令
+-a      # 并且
+-o      # 或者
 
 find . -name "file???"
-find . -iname "file"  # 不区分大小写
-find / -mtime -3 # 查找 3 天内被修改过的文件
-find / -mtime +4 # 查找 4 天前被修改过的文件
-find / -mtime 2  # 查找 2 天前被修改过的文件
-find ./ -size +10M # 查找大于 10M 的文件
-find ./ -type f # 查找所有普通文件
-find ./ -user tom # 查找所属用户 tom 的文件
+find . -iname "file"                 # 不区分大小写
+find / -mtime -3                     # 查找 3 天内被修改过的文件
+find / -mtime +4                     # 查找 4 天前被修改过的文件
+find / -mtime 2                      # 查找 2 天前被修改过的文件
+find ./ -size +10M                   # 查找大于 10M 的文件
+find ./ -type f                      # 查找所有普通文件
+find ./ -user tom                    # 查找所属用户 tom 的文件
 find ./ -size +1M -exec ls -l {} \;  # 查出大于 1M 文件后列出文件详细信息
-find ./ -size +1M -a -type f # 查找所有大于 1M 的文件
-find /home -amin -10  # 十分钟内存取的文件或目录
-find /home -atime -10 # 十小时内存取的文件或目录
-find /home -cmin -10  # 十分钟内更改过的文件或目录
-find /home -ctime +10 # 十小时前更改过的文件或目录
-find /home -size +10k # 大小 10K
-find / -name filename # 从根目录开始查所有目录
+find ./ -size +1M -a -type f         # 查找所有大于 1M 的文件
+find /home -amin -10                 # 十分钟内存取的文件或目录
+find /home -atime -10                # 十小时内存取的文件或目录
+find /home -cmin -10                 # 十分钟内更改过的文件或目录
+find /home -ctime +10                # 十小时前更改过的文件或目录
+find /home -size +10k                # 大小 10K
+find / -name filename                # 从根目录开始查所有目录
 find / -name "*name*"
-find / -empty # 查找计算机上的所有空文件
-find / -group tom # 查找属组为 tom 的文件
+find / -empty                        # 查找计算机上的所有空文件
+find / -group tom                    # 查找属组为 tom 的文件
 
 find / -name "*name*" -ls
 find / -name "*name*" -exec file {} \; 查找的文件放到大括号内。查看结果的类型
